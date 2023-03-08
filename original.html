@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>新幹線大特集</title>
+        <style>
+            h1{
+                color:blue;
+                background-color: gold;
+                padding:32px;
+                text-shadow:2px 2px 4px black;
+                font-size:64px;
+                text-align:center;
+            }
+            h2{
+                color: cornflowerblue;
+                border-left:8px solid gold;
+                padding-left: 8px;
+                margin-top: 32px;
+            }
+            img{
+                border-width: 4px solid gray;
+                width: 480px;
+                height: 270px;
+                border-radius: 20px;
+            }
+            main{
+                margin:16px
+            }
+            .train li{
+                color:rgb(138, 101, 249);
+            }
+        </style>
+    </head>
+    <body>
+    <h1 >新幹線大特集</h1>
+<main>
+   <h2>新幹線の誕生</h2>
+<p>1964年、東京オリンピックの開催に合わせて東海道新幹線が東京～新大阪間で開業した。
+    <br>その後車体の改良や新車体の開発により、現在は東京～新大阪間を２時間３０分程度で結ぶことができるようになった。
+    <br>また、路線が全国各地に延ばされたことで、国内を素早く快適に移動できるようになった。</p>
+
+    <h2>各地を走る新幹線の車両</h2>
+    <ol class="train">
+        <li>N700A・N700S</li>
+        <div class="pictuers">
+      
+      <img src="https://www.toretabi.jp/media/008/202002/62d98e2854973acc486acea19b3f48a8.jpg" alt="N700A"/>
+      <h3>N700A</h3>
+      <img src="https://static.chunichi.co.jp/image/article/size1/8/d/7/0/8d7023b4ceb0af6c3fe2d9dc76258859_1.jpg" alt="N700S"\>
+      <h3>N700S</h3>
+      <h4>主に東海道新幹線（のぞみ・ひかり・こだま）として走行している。
+        <br>運が良ければ車窓から富士山を見ることができる。
+      </h4>
+      
+    </div>
+    <li>E5系</li>
+      <div class="pictures">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/JRE-TEC-E5_omiya.JPG"
+        alt="E5系"/>
+        <h4>主に東北新幹線（はやぶさ）として走行している。
+        <br>緑色の車体にピンクのラインが印象的。
+        </h4>
+      </div>   
+      <li>E6系</li>
+      <div class="pictures"> </div>
+      <img src="https://stat.ameba.jp/user_images/20130901/03/nakarapi/10/6f/j/o0525035012668693647.jpg" alt="E6系"/>
+      <h4>
+        主に秋田新幹線（こまち）として走行している。
+        在来線の路線も走行するため、一般的な新幹線と比べると車幅が狭く、
+        <br>ドアの下には展開式の足場がつけられている。
+      </h4>
+      <li>E3系</li>
+      <div class="pictures"></div>
+      <img src="https://www.jreast.co.jp/train/shinkan/img/yamagata_img01.jpg" alt="E3系"/>
+      <h4>
+        現在は主に山形新幹線（つばさ）として走行しているが、E6系が誕生する前は秋田新幹線の車両として走行していた。
+        <br>秋田新幹線同様車幅が狭いので、「ミニ新幹線」として親しまれている。
+      </h4>
+      <li>E7系</li>
+      <div class="pictures"></div>
+      <img src="https://raillab.jp/img/user/train_photo/2982_29369/680.jpg" alt="E7系"/>
+      <h4>
+        主に北陸新幹線（かがやき）として走行している。
+        坂道が多く、非常にパワーの強い車両となっている。
+      </h4>
+      <li>800系</li>
+      <div class="pictures"></div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN_DcY6PLtSjU2UyYX2Vn32Jn-ZaKaQAuqtA&usqp=CAU" alt="800系"/>
+      <h4>
+        主に九州新幹線（つばめ）として走行している。
+    <br>「和」と「伝統」をコンセプトにした車両が特徴で、シートの背もたれやひじ掛けなどには天然の木が使用されている。     </h4>
+    </ol>
+    <h2>好きな鉄道アンケート！</h2>
+    <form action="http://soasa.starfree.jp/form.php">
+        名前: <input type="text" name="name" placeholder="名前" />
+        <br>
+        <input type="radio" name="train" value="N700A"/>N700A
+        <input type="radio" name="train" value="N700S"/>N700S
+        <input type="radio" name="train" value="E5系"/>E5系
+        <input type="radio" name="train" value="E6系"/>E6系 
+        <input type="radio" name="train" value="E3系"/>E3系
+        <input type="radio" name="train" value="E7系"/>E7系
+        <input type="radio" name="train" value="800系"/>800系
+        <br>
+        <textarea name="comment">
+        </textarea>
+        <br>
+        <input type="submit" value="送信する"/>
+    </form>
+</main>    
+    </body> 
+</html>
